@@ -17,8 +17,8 @@ import AdminJobs from "./components/admincomponent/AdminJobs.jsx";
 import PostJob from "./components/admincomponent/PostJob";
 import Applicants from "./components/admincomponent/Applicants";
 import ProtectedRoute from "./components/admincomponent/ProtectedRoute";
-import Creator from "./components/about/About.jsx";
-import About from "./components/about/About.jsx";
+import Creator from "./components/components_lite/About.jsx";
+import About from "./components/components_lite/About.jsx";
 
 const appRouter = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -59,8 +59,8 @@ const appRouter = createBrowserRouter([
     element: <Browse />,
   },
   {
-    path:"/About",
-    element: <About/>
+    path: "/About",
+    element: <About />
   },
 
   // /admin
